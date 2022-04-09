@@ -11,8 +11,10 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+
 /* tag referente a seção 2 em diante*/
-h3 {font-family: "Montserrat";
+h3 {
+  font-family: "Montserrat";
 }
 
 /* ids*/
@@ -23,18 +25,15 @@ h3 {font-family: "Montserrat";
 /* class */
 .container-fluid {
   padding: 3% 15% 5%;
-
 }
 
 .navbar {
   padding: 0 0 4.5rem;
-
 }
 
 .navbar-brand {
   font-weight: bold;
   font-size: 2.5rem;
-
 }
 
 .nav-item {
@@ -47,16 +46,14 @@ h3 {font-family: "Montserrat";
   font-weight: 300;
 }
 
-
-
-
 .title2 {
   color: #fff;
   line-height: 1.5;
 }
 
 /* botão de download */
-.d-button  { margin: 7% 8% 7% 0
+.d-button {
+  margin: 7% 8% 7% 0
 }
 
 /* imagem titulo*/
@@ -64,31 +61,36 @@ h3 {font-family: "Montserrat";
   transform: rotate(25deg);
   width: 260px;
   margin-left: 15%;
-
 }
-
 
 /* parte 2*/
-.secao2 {padding-top: 150px;
-  padding-bottom: 150px;
+#features {
+  padding: 7% 10% 13% 10%;
   text-align: center;
-
+  background-color: #fff;
+  position: relative;
 }
 
-  .icon2 { font-size: 4em;
-    color: #ef8172;
-    padding-bottom: 1rem;
-  }
-.icon2:hover {color: #ff4c68;}
-
-.text2 {font-size: 1.5rem;
-    font-weight: 900;
+.icon2 {
+  font-size: 4em;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.minitx2 { color: #8f8f8f;
-
+.icon2:hover {
+  color: #ff4c68;
 }
 
-.box {  padding: 0 30px 0 30px;
-text-align: center;
+.text2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.minitx2 {
+  color: #8f8f8f;
+}
+
+.box {
+  padding: 0 40px 0 40px;
+  text-align: center;
 }
