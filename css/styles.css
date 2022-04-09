@@ -12,6 +12,16 @@ h1 {
   font-weight: 900;
 }
 
+/* tag referente a seção 3 em diante*/
+
+h2 { font-family: "Montserrat";
+font-size: 3rem;
+font-weight: bold;
+line-height: 1.5;
+
+}
+
+
 /* tag referente a seção 2 em diante*/
 h3 {
   font-family: "Montserrat";
@@ -66,7 +76,7 @@ h3 {
 
 /* parte 2*/
 #features {
-  padding: 7% 10% 13% 10%;
+  padding: 7% 10% 10% 10%;
   text-align: center;
   background-color: #fff;
   position: relative;
@@ -91,10 +101,32 @@ h3 {
   color: #8f8f8f;
 }
 
-.box {
-  padding: 0 40px 0 40px;
-  text-align: center;
+
+/* parte 3 */
+
+#testimonials {padding: 7% 10% 10% 10%;
+text-align: center;
+background-color: #ef8172;
+color: #ffff
 }
+
+.testimonial-image {
+width: 10%;
+border-radius: 100%;
+margin-top:22px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 0;
+}
+
 /* efeito resposivo (pesquisar como funciona)*/
 @media (max-width: 1028px) {
 
