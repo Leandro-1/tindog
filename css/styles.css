@@ -46,7 +46,7 @@ h3 {
   font-weight: 300;
 }
 
-.title2 {
+.title {
   color: #fff;
   line-height: 1.5;
 }
@@ -57,10 +57,11 @@ h3 {
 }
 
 /* imagem titulo*/
-.phone {
-  transform: rotate(25deg);
+.title-image {
   width: 260px;
-  margin-left: 15%;
+ transform: rotate(30deg);
+ position: absolute;
+ right: 30%
 }
 
 /* parte 2*/
@@ -93,4 +94,15 @@ h3 {
 .box {
   padding: 0 40px 0 40px;
   text-align: center;
+}
+/* efeito resposivo (pesquisar como funciona)*/
+@media (max-width: 1028px) {
+
+ #title {
+   text-align: center;
+ }
+
+ .title-image {
+   position: static;
+   transform: rotate(0);
 }
