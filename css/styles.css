@@ -25,6 +25,10 @@ h3 {
   font-family: "Montserrat";
 }
 
+p {
+  color: #8f8f8f;
+}
+
 /* ids*/
 #title {
   background-color: #ff4c68;
@@ -117,7 +121,7 @@ h3 {
 }
 
 .testimonials-minitx{
-  
+
 }
 #press {
   background-color: #ef8172;
@@ -129,6 +133,35 @@ h3 {
   width: 15%;
   margin: 20px 20px 50px 0;
 }
+
+/* preços */
+ #pricing {
+   padding: 100px;
+   text-align: center;
+ }
+
+.price-col {
+  padding: 3% 2% 0% 0%;
+
+}
+
+.pricing-text{
+
+font-family: "Montserrat";
+    font-size: 2.0rem;
+    font-weight: bold;
+  }
+
+  .price-text1{
+
+  font-size: 1.7rem
+    }
+
+.price-text {
+  font-size: 1.7rem
+}
+
+
 
 /* efeito resposivo (pesquisar como funciona)*/
 @media (max-width: 1028px) {
