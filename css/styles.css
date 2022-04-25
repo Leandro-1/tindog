@@ -36,7 +36,7 @@ p {
 
 /* class */
 .container-fluid {
-  padding: 3% 15% 5%;
+  padding: 3% 15% 6%;
 }
 
 .navbar {
@@ -161,9 +161,14 @@ font-family: "Montserrat";
   font-size: 1.7rem
 }
 
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+
+}
 
 
-/* efeito resposivo (pesquisar como funciona)*/
 @media (max-width: 1028px) {
   #title {
     text-align: center;
