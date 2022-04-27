@@ -157,6 +157,8 @@ p {
   font-size: 1.7rem
 }
 
+  /*call to action */
+
 #cta {
   height: 400px;
   background-color: #ff4c68;
@@ -168,12 +170,14 @@ p {
   padding: 80px 0 60px;
   margin: 0 300px 0 300px;
   font-size: 3rem;
+  line-height:1.5;
   font-weight: bold;
 }
 
 .d-btn2 {
   margin: 0% 2%;
 }
+ /*footer section */
 
 #footer {
   background-color: #fff;
@@ -183,11 +187,10 @@ p {
 
 .footerclass {
   padding: 6% 0 2%;
-
 }
 
 .d-icon {
-margin: 0% 0.8%;
+  margin: 0% 0.8%;
 }
 
 @media (max-width: 1028px) {
