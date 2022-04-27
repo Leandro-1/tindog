@@ -120,9 +120,8 @@ p {
   margin-top: 22px;
 }
 
-.testimonials-minitx{
+.testimonials-minitx {}
 
-}
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -135,27 +134,24 @@ p {
 }
 
 /* preços */
- #pricing {
-   padding: 100px;
-   text-align: center;
- }
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
 
 .price-col {
   padding: 3% 2% 0% 0%;
-
 }
 
-.pricing-text{
+.pricing-text {
+  font-family: "Montserrat";
+  font-size: 2.0rem;
+  font-weight: bold;
+}
 
-font-family: "Montserrat";
-    font-size: 2.0rem;
-    font-weight: bold;
-  }
-
-  .price-text1{
-
+.price-text1 {
   font-size: 1.7rem
-    }
+}
 
 .price-text {
   font-size: 1.7rem
@@ -163,23 +159,36 @@ font-family: "Montserrat";
 
 #cta {
   height: 400px;
-    background-color: #ff4c68;
-    text-align: center;
-    color: #fff;
-
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
 }
 
 .ctatext {
-padding:80px 0 60px ;
- margin: 0 300px 0 300px ;
-font-size: 3rem;
-font-weight: bold;
+  padding: 80px 0 60px;
+  margin: 0 300px 0 300px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .d-btn2 {
-margin: 0% 2%;
+  margin: 0% 2%;
 }
 
+#footer {
+  background-color: #fff;
+  height: 200px;
+  text-align: center;
+}
+
+.footerclass {
+  padding: 6% 0 2%;
+
+}
+
+.d-icon {
+margin: 0% 0.8%;
+}
 
 @media (max-width: 1028px) {
   #title {
