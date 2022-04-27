@@ -65,7 +65,7 @@ p {
 
 /* botão de download */
 .d-button {
-  margin: 7% 8% 7% 0
+  margin: 7% 8% 7% 0;
 }
 
 /* imagem titulo*/
@@ -73,7 +73,7 @@ p {
   width: 260px;
   transform: rotate(30deg);
   position: absolute;
-  right: 20%
+  right: 20%;
 }
 
 /* parte 2*/
@@ -162,10 +162,22 @@ font-family: "Montserrat";
 }
 
 #cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
+  height: 400px;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
 
+}
+
+.ctatext {
+padding:80px 0 60px ;
+ margin: 0 300px 0 300px ;
+font-size: 3rem;
+font-weight: bold;
+}
+
+.d-btn2 {
+margin: 0% 2%;
 }
 
 
