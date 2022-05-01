@@ -1,7 +1,7 @@
 /* tag */
 body {
   font-family: 'Ubuntu', sans-serif;
-  ;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -19,27 +19,22 @@ p {
 .big-heading {
   color: #fff;
   line-height: 1.5;
-  color: #FFFFFF;
   font-family: "Montserrat";
   font-size: 3.5rem;
-  line-height: 1.5;
   font-weight: 900;
 }
 
 .section-heading {
   font-size: 3rem;
   font-weight: bold;
-  line-height: 1.5;  
+  line-height: 1.5;
 }
 
-#title {
-  background-color: #ff4c68;
-}
-
-/* class */
 .container-fluid {
-  padding: 3% 15% 6%;
+  padding: 7% 15% ;
 }
+
+
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -65,6 +60,17 @@ p {
   margin: 7% 8% 7% 0;
 }
 
+/* title section*/
+
+#title {
+  background-color: #ff4c68;
+text-align:left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%
+}
+
 /* imagem titulo*/
 .title-image {
   width: 260px;
@@ -76,7 +82,6 @@ p {
 /* parte 2*/
 #features {
   padding: 7% 10% 10% 10%;
-  text-align: center;
   background-color: #fff;
   position: relative;
 }
@@ -91,7 +96,7 @@ p {
   color: #ff4c68;
 }
 
-.text2 {
+.feature-title {
   font-size: 1.5rem;
   font-weight: 900;
 }
@@ -102,14 +107,12 @@ p {
 
 /* parte 3 */
 #testimonials {
-  text-align: center;
+
   background-color: #ef8172;
   color: #ffff
 }
 
-.carousel-item {
-  padding: 7% 10% 6% 10%;
-}
+
 
 .testimonial-image {
   width: 10%;
@@ -125,7 +128,7 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding: 3%
 }
 
@@ -137,7 +140,7 @@ p {
 /* preços */
 #pricing {
   padding: 100px;
-  text-align: center;
+
 }
 
 .price-col {
@@ -158,29 +161,26 @@ p {
 
 /*call to action */
 #cta {
-  height: 400px;
+
   background-color: #ff4c68;
-  text-align: center;
   color: #fff;
 }
 
 .ctatext {
-  padding: 80px 0 60px;
-  margin: 0 300px 0 300px;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
-.d-btn2 {
-  margin: 0% 2%;
+#cta .d-button  {
+  margin: 3% 2% ;
 }
 
 /*footer section */
 #footer {
   background-color: #fff;
   height: 200px;
-  text-align: center;
+
 }
 
 .d-icon {
@@ -189,7 +189,7 @@ p {
 
 @media (max-width: 1028px) {
   #title {
-    text-align: center;
+text-align: center;
   }
 
   .title-image {
