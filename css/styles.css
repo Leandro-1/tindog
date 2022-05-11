@@ -9,8 +9,6 @@ h1, h2, h3 {
 }
 
 /* tag referente a seção 2 em diante*/
-
-
 p {
   color: #8f8f8f;
 }
@@ -30,12 +28,22 @@ p {
   line-height: 1.5;
 }
 
+/*container*/
 .container-fluid {
-  padding: 7% 15% ;
+  padding: 7% 15%;
 }
 
+/*section*/
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffff
+}
 
+.white-section {
+  background-color: #fff;
+}
 
+/*navigation bar*/
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -61,10 +69,8 @@ p {
 }
 
 /* title section*/
-
 #title {
-  background-color: #ff4c68;
-text-align:left;
+  text-align: left;
 }
 
 #title .container-fluid {
@@ -82,7 +88,6 @@ text-align:left;
 /* parte 2*/
 #features {
   padding: 7% 10% 10% 10%;
-  background-color: #fff;
   position: relative;
 }
 
@@ -107,12 +112,8 @@ text-align:left;
 
 /* parte 3 */
 #testimonials {
-
   background-color: #ef8172;
-  color: #ffff
 }
-
-
 
 .testimonial-image {
   width: 10%;
@@ -128,7 +129,6 @@ text-align:left;
 
 #press {
   background-color: #ef8172;
-
   padding: 3%
 }
 
@@ -140,7 +140,6 @@ text-align:left;
 /* preços */
 #pricing {
   padding: 100px;
-
 }
 
 .price-col {
@@ -159,28 +158,19 @@ text-align:left;
   font-weight: bold;
 }
 
-/*call to action */
-#cta {
-
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 .ctatext {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
-#cta .d-button  {
-  margin: 3% 2% ;
+#cta .d-button {
+  margin: 3% 2%;
 }
 
 /*footer section */
 #footer {
-  background-color: #fff;
   height: 200px;
-
 }
 
 .d-icon {
@@ -189,7 +179,7 @@ text-align:left;
 
 @media (max-width: 1028px) {
   #title {
-text-align: center;
+    text-align: center;
   }
 
   .title-image {
