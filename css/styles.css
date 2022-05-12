@@ -69,12 +69,10 @@ p {
 }
 
 /* title section*/
-#title {
-  text-align: left;
-}
 
 #title .container-fluid {
-  padding: 3% 15% 7%
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* imagem titulo*/
